@@ -1,1 +1,3 @@
 # finetuned-llama-2-bengali
+
+I used the official IPYNB file to finetune Llama 2 model. The dataset I used to finetune is the Bangla-alpaca-orca from huggingface. This dataset is suitable for assistants, however it required preprocessing the data since Llama 2 input has a specific format to be followed. The preprocessing of the data is done in the Dataset notebook where I took a random sample of 3000 data and converted it to the specific Llama 2 format. The data was then uploaded to HuggingFace and retrieved from there in the Model training notebook where I used that data to finetune the Llama 2 model.
